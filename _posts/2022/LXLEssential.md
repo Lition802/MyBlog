@@ -31,7 +31,7 @@ LXLEssential提供超过数十个有用的命令给几乎所有装载了[LiteXLo
 
 # 🔨配置文件
 
-LXLEssential是由多个组件组成的，你一般不需要/想要所有的组件，如果你不知道每个组件是干什么的,那么查看如下配置文件
+LXLEssential是由多个组件组成的，你一般不需要/想要所有的组件，如果你不知道每个组件是干什么的，那么查看如下配置文件
 ``` json
 {
 	"home": {  //家园系统
@@ -115,7 +115,7 @@ LXLEssential有众多命令，前提是你从配置文件中开启这些功能
 
  - [tpa](#tpa)
  - [back](#back)
- - [gohome](#home)
+ - [gohome](#gohome)
  - [sethome](#sethome)
  - [delhome](#delhome)
  - [gowarp](#gowarp)
@@ -133,6 +133,8 @@ LXLEssential有众多命令，前提是你从配置文件中开启这些功能
  - [sell](#sell)
  - [setsell](#setsell)
  - [price](#price)
+ - [setbuy](#setbuy)
+ - [buy](#buy)
 
 ## tpa
 传统的tpa功能，支持玩家之间互相传送
@@ -222,6 +224,16 @@ LXLEssential有众多命令，前提是你从配置文件中开启这些功能
 ## price
 查询手中物品的回收价格
 ![](price.png)
+
+## setbuy
+设置出售商店
+![](setbuy.jpg)
+注意：**设置的是你手中物品的出售价格**
+![](setbuy2.jpg)
+
+## buy
+购买商品
+![](buy.jpg)
 
 # ❓常见问题及其解答
 
