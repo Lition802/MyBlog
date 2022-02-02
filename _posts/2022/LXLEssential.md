@@ -113,28 +113,34 @@ LXLEssential是由多个组件组成的，你一般不需要/想要所有的组�
 
 LXLEssential有众多命令，前提是你从配置文件中开启这些功能
 
- - [tpa](#tpa)
- - [back](#back)
- - [gohome](#gohome)
- - [sethome](#sethome)
- - [delhome](#delhome)
- - [gowarp](#gowarp)
- - [setwarp](#setwarp)
- - [delwarp](#delwarp)
- - [tpr](#tpr)
- - [pay](#pay)
- - [payoff](#payoff)
- - [balance](#balance)
- - [balancetop](#balancetop)
- - [getpos](#getpos)
- - [suicide](#suicide)
- - [notice](#notice)
- - [setnotice](#setnotice)
- - [sell](#sell)
- - [setsell](#setsell)
- - [price](#price)
- - [setbuy](#setbuy)
- - [buy](#buy)
+🏨家园系统
+[/sethome - 添加一个家](#sethome)
+[/delhome - 删除一个家](delhome)
+[/gohome - 前往一个家](#gohome)
+
+🔀传送系统
+[/tpa - 打开玩家传送面板](#tpa)
+[/tptoggle - 更改传送状态](#tptoggle)
+[/tpr - 随机传送](#tpr)
+
+⏪死亡返回
+[/back - 返回上一个死亡点](#back)
+
+💱经济系统
+[/balance - 查看经济余额](#balance)
+[/balancetop - 查看服务器经济排行榜](#balancetop)
+[/pay - 转账给在线玩家](#pay)
+[/payoff - 转账给离线玩家](#payoff)
+
+💰商店系统
+[/buy - 查看服务器购买商店](#buy)
+[/sell - 查看服务器回收商店](#sell)
+[/setbuy - 管理员设置购买商店](#setbuy)
+[/setsell - 设置回收商店](#setsell)
+
+🔊公告系统
+[/notice - 查看服务器公告](#notice)
+[/setnotice - 管理员设置服务器公告](#setnotice)
 
 ## tpa
 传统的tpa功能，支持玩家之间互相传送
