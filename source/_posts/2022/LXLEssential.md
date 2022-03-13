@@ -59,6 +59,7 @@ LXLEssential是由多个组件组成的，你一般不需要/想要所有的组�
 	},
 	"back": {
 		"enable": true,
+		"auto":false, //重生时是否自动弹窗，开启立即重生的服务器可以尝试关闭此选项
 		"cost": {
 			"enable": false,
 			"money": 100
@@ -115,15 +116,13 @@ LXLEssential有众多命令，前提是你从配置文件中开启这些功能
 
 🏨家园系统
 [/sethome - 添加一个家](#sethome)
-[/delhome - 删除一个家](delhome)
+[/delhome - 删除一个家](#delhome)
 [/gohome - 前往一个家](#gohome)
 
 🔀传送系统
 [/tpa - 打开玩家传送面板](#tpa)
 [/tptoggle - 更改传送状态](#tptoggle)
 [/tpr - 随机传送](#tpr)
-
-⏪死亡返回
 [/back - 返回上一个死亡点](#back)
 
 💱经济系统
@@ -141,6 +140,10 @@ LXLEssential有众多命令，前提是你从配置文件中开启这些功能
 🔊公告系统
 [/notice - 查看服务器公告](#notice)
 [/setnotice - 管理员设置服务器公告](#setnotice)
+
+🧪快捷工具
+[/console - 执行控制台命令](#console)
+[/suicide - 自杀](#suicide)
 
 ## tpa
 传统的tpa功能，支持玩家之间互相传送
@@ -240,6 +243,11 @@ LXLEssential有众多命令，前提是你从配置文件中开启这些功能
 ## buy
 购买商品
 ![](buy.jpg)
+
+## console
+快捷执行控制台命令
+可以用@s代替自己
+![](console.jpg)
 
 # ❓常见问题及其解答
 
